@@ -1,0 +1,20 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.parallax-container {
+    min-height: 670px;
+    background: transparent;
+    height: "your height here";
+}

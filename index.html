@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Dev</title>
+    <!-- materialize css local -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--my css-->
+    <link rel="stylesheet" href="css/materialize.css">
+</head>
+
+<body>
+    <!---navbar-->
+    <div class="navbar-fixed">
+        <nav class="pushpin-demo-nav black">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo left">Caio Myra</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a datajs="active" href="#sobre-min">Sobre mim</a></li>
+                    <li><a href="#habilidade">Habilidade</a></li>
+                    <li><a href="#Portfolio">Portfólio</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!--content-->
+    <main>
+        <div class="parallax-container ">
+            <div class="parallax"><img src="fonte/img/js.jpg" width="2000"></div>
+        </div>
+
+        <div class="container row">
+            <div class="col s6" id="sobre-min">
+                <br>
+                <img class="circle responsive-img center-align" width="200" height="500" src="fonte/img/eu.jpeg">
+            </div>
+            <div class="col s6">
+                <h1 class="center-align"> Sobre <br> - <br> mim</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div id="habilidade" class="card-panel purple lighten-1 white-text z-depth-4">
+                <h1 class="center-align"> Minha <br> a <br> Habilidade </h1>
+            </div>
+        </div>
+        <div id="Portfolio" class="card-panel purple lighten-1 white-text z-depth-4">
+            <h1 class="center-align">Meus <br> - <br> projetos</h1>
+        </div>
+        <div class="card-panel purple lighten-1 white-text z-depth-4">
+            <h1 class="center-align"> bem vindo<br> a <br> meu Cv</h1>
+        </div>
+    </main>
+
+    <!---footer-->
+    <footer class="page-footer  black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12" id="contatos">
+                    <h5 class="white-text">siga-me na redes</h5>
+                    <p class="grey-text text-lighten-4">incons com links......</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Copyright Text
+
+            </div>
+        </div>
+    </footer>
+
+    <!---jquery remoto, obs:" muito importante que jquery vem antes do materialize.js" -->
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <!-- materialize javascript local -->
+    <script src="js/materialize.js"></script>
+    <!--my script-->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
