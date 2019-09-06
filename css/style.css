@@ -18,3 +18,8 @@ main {
     background: transparent;
     height: "your height here";
 }
+
+.caption h3,
+h5 {
+    font-size: 100px;
+}

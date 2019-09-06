@@ -16,6 +16,11 @@
         var instances = M.Parallax.init(elems);
     });
 
+    doc.addEventListener('DOMContentLoaded', function() {
+        var elems = doc.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+    });
+
 
 
 
