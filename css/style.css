@@ -22,9 +22,16 @@ main {
 .caption {
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .caption h3 {
     font-size: 100px;
+}
+
+.logo {
+    filter: invert( 100%);
+    width: 130px;
+    position: absolute;
+    top: -10px;
 }
