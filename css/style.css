@@ -35,3 +35,7 @@ main {
     position: absolute;
     top: -10px;
 }
+
+.button:hover {
+    background-color: #424242;
+}
