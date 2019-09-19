@@ -1,0 +1,15 @@
+.imgJs {
+    width: 2000px;
+}
+
+@media (min-width: 1200px) {
+    .imgJs {
+        width: 2500px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .imgJs {
+        width: 3200px;
+    }
+}
