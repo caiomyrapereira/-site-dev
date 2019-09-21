@@ -39,3 +39,13 @@ main {
 .button:hover {
     background-color: #424242;
 }
+
+.github:hover {
+    background: white;
+    border-radius: 25px;
+}
+
+.linkedin:hover {
+    background: white;
+    border-radius: 12px;
+}

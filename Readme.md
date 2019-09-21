@@ -1,4 +1,4 @@
 
- Não ame ,programe! 
+ Não ame!,programe! 
 
 
