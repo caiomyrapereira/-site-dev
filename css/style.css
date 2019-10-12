@@ -29,6 +29,12 @@ main {
     font-size: 100px;
 }
 
+.caption h3,
+h5 {
+    position: relative;
+    top: 25%;
+}
+
 .logo {
     filter: invert( 100%);
     width: 130px;
