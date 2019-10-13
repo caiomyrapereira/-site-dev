@@ -2,3 +2,14 @@
     width: 200%;
     height: 170%;
 }
+
+@media screen and (max-width: 600px) {
+    .caption h3 {
+        font-size: 45px;
+    }
+    .caption h3,
+    h5 {
+        position: relative;
+        top: 35%;
+    }
+}

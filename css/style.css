@@ -35,11 +35,9 @@ h5 {
     top: 25%;
 }
 
-.logo {
-    filter: invert( 100%);
-    width: 130px;
-    position: absolute;
-    top: -10px;
+.brand-logo {
+    position: relative;
+    left: 10px;
 }
 
 .button:hover {
