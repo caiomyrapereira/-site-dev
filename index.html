@@ -29,7 +29,9 @@
                     <li><a class="button" datajs="active" href="#sobre-mim">Sobre mim</a></li>
                     <li><a class="button" href="#habilidade">Habilidade</a></li>
                     <li><a class="button" href="#Portfolio">Portfólio</a></li>
-                    <li><a class="button" href="#contatos">Contatos</a></li>
+                    <li>
+                        <a class="button" href="#contatos">Contatos<img src="fonte/icon/e-mail-envelope.png"></a>
+                    </li>
                 </ul>
 
             </div>
@@ -75,33 +77,60 @@
     <!---footer-->
     <footer class="page-footer  black">
         <div class="container">
-            <div class="row">
-                <div id="contatos">
-                    <h5 class="white-text center-align">Siga-me na redes.</h5>
-                </div>
-                <div class="row">
-                    <br><br>
-                    <div class="col s6 right-align">
-                        <a href="https://www.linkedin.com/in/caio-myra-pereira-0625ba128/">
-                            <img class="linkedin" src="fonte/icon/linkedin.png">
-                        </a>
-                    </div>
-                    <div class="col s6 ">
-                        <a href="https://github.com/caiomyrapereira">
-                            <img class="github" src="fonte/icon/github.png">
-                        </a>
-                    </div>
-                    <div class="col s12 center-align ">
-                        <br><br>
-                        <h6>caiomyrapereira@hotmail.com</h6>
-                    </div>
-                </div>
+            <h5 class="center-align">Entre em contato comigo</h5>
+            <div>
+                <form action="http://formmail.kinghost.net/formmail.cgi" method="POST" class="form">
+                    <input type="hidden" name="recipient" value="caiomyrapereira@hotmail.com">
+                    <!-- Pode ser qualquer endereço de email -->
+                    <input type="hidden" name="redirect" value="https://caiomyrapereira.github.io">
+                    <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+                    <input type="hidden" name="subject" value="teste de assunto">
+                    <!-- Assunto da mensagem -->
+                    <input type="hidden" name="email" value="caiomyrapereira@hotmail.com">
+                    <!-- Deve ser uma conta de email ativa em seu domínio -->
+
+                    <p>
+                        Nome:<br />
+                        <input type="text" size="30" name="nome">
+                    </p>
+
+                    <p>
+                        E-mail:<br />
+                        <input type="text" size="30" name="replyto">
+                    </p>
+                    <p>
+                        Assunto:<br />
+                        <input type="text" size="30" name="assunto">
+                    </p>
+
+                    <p>
+                        Comentários:<br /><br />
+                        <textarea type="text" size="35" name="Comentarios"></textarea>
+                    </p>
+
+                    <p>
+                        <button class="btn waves-effect blue" type="submit" name="BTEnvia" value="Enviar">Enviar    
+                                <i class="material-icons right">send</i>
+                            </button>
+                        <button class="btn waves-effect blue" type="reset" name="BTApaga" value="Apagar">
+                                Apagar 
+                            </button>
+                    </p>
+                </form>
             </div>
+
         </div>
-        <div class="footer-copyright">
+        <div id="contatos" class="footer-copyright">
             <div class="container">
-                © 2019 Copyright Text
+                <p>© 2019 Copyright Text</p>
+
             </div>
+            <a href="https://www.linkedin.com/in/caio-myra-pereira-0625ba128/">
+                <img class="linkedin" src="fonte/icon/linkedin01.png">
+            </a>
+            <a href="https://github.com/caiomyrapereira">
+                <img class="github" src="fonte/icon/github-logo1.png">
+            </a>
         </div>
     </footer>
 
