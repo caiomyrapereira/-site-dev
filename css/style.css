@@ -44,12 +44,23 @@ h5 {
     background-color: #424242;
 }
 
-.github:hover {
-    background: white;
-    border-radius: 25px;
+.button img {
+    height: 30px;
+    margin: 5px;
 }
 
-.linkedin:hover {
-    background: white;
-    border-radius: 12px;
+.form input,
+textarea {
+    color: white;
+}
+
+.form textarea {
+    height: 70px;
+}
+
+.footer-copyright .github,
+.linkedin {
+    height: 40px;
+    float: right;
+    margin: 3px 3px 0px 7px;
 }
