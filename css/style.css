@@ -45,8 +45,8 @@ h5 {
 }
 
 .button img {
-    height: 30px;
-    margin: 5px;
+    height: 26px;
+    margin: 0px 10px -5px 5px;
 }
 
 .form input,
