@@ -13,6 +13,7 @@
                 this.parallax()
                 this.initSadMenu()
                 this.closeSadMenu()
+                this.initCarousel()
 
             },
             parallax: function() {
@@ -25,6 +26,12 @@
                 doc.addEventListener('DOMContentLoaded', function() {
                     const elems = doc.querySelectorAll('.sidenav');
                     const instances = M.Sidenav.init(elems);
+                });
+            },
+            initCarousel: function initCarousel() {
+                $('.carousel.carousel-slider').carousel({
+                    fullWidth: true,
+                    indicators: true
                 });
             },
             closeSadMenu: function() {

@@ -61,25 +61,30 @@
         </div>
     </div>
 
-    <div id="sobre-mim" class="card-panel">
+    <div id="sobre-mim">
+        <div class="card-panel image">
+            <img src="fonte/img/img.jpg">
+        </div>
+        <p> Estudante de T.I, Cursando o ultimo semestre de desenvolvimento de sistemas na Etec Apligio Gonzaga.<br> Desde meus vinte anos venho estudando e praticando os conteúdo do cursos da Udemy,Udacity e Codesaga.<br> Portanto com isso adquirir conhecimento
+            de Html, Css, Javascript, Git, Ruby e Framework:Materialize e Bootstrap.<br> Enquanto adquirindo os conhecimentos, venho praticando os desafios de código aberto do repositório da comunidade frontendbr do github.
 
-        <h1 class="center-align"> Sobre <br> - <br> mim</h1>
+        </p>
 
     </div>
 
-    <div id="habilidade" class="card-panel">
+    <div id="habilidade">
         <h1 class="center-align"> Minha <br> - <br> Habilidade </h1>
     </div>
 
-    <div id="Portfolio" class="card-panel">
+    <div id="Portfolio"><br>
         <h1 class="center-align">Meus <br> - <br> projetos</h1>
     </div>
 
 
     <!---footer-->
-    <footer class="page-footer  black">
+    <footer class="page-footer  white">
         <div class="container">
-            <h5 class="center-align">Entre em contato comigo</h5>
+            <h5 class="center-align ">Entre em contato comigo</h5>
             <div>
                 <form action="http://formmail.kinghost.net/formmail.cgi" method="POST" class="form">
                     <input type="hidden" name="recipient" value="caiomyrapereira@hotmail.com">
@@ -93,36 +98,36 @@
 
                     <p>
                         Nome:<br />
-                        <input type="text" size="30" name="nome">
+                        <input type="text" size="30" name="nome" required maxlength="75">
                     </p>
 
                     <p>
                         E-mail:<br />
-                        <input type="text" size="30" name="replyto">
+                        <input type="email" size="30" name="replyto" required maxlength="75">
                     </p>
                     <p>
                         Assunto:<br />
-                        <input type="text" size="30" name="assunto">
+                        <input type="text" size="30" name="assunto" required maxlength="75">
                     </p>
 
                     <p>
                         Comentários:<br /><br />
-                        <textarea type="text" size="35" name="Comentarios"></textarea>
+                        <textarea type="text" size="35" name="Comentarios" required maxlength="400"></textarea>
                     </p>
 
                     <p>
                         <button class="btn waves-effect blue" type="submit" name="BTEnvia" value="Enviar">Enviar    
                                 <i class="material-icons right">send</i>
-                            </button>
+                        </button>
                         <button class="btn waves-effect blue" type="reset" name="BTApaga" value="Apagar">
                                 Apagar 
-                            </button>
+                        </button>
                     </p>
                 </form>
             </div>
 
         </div>
-        <div id="contatos" class="footer-copyright">
+        <div id="contatos" class="footer-copyright black">
             <div class="container">
                 <p>© 2019 Copyright Text</p>
 

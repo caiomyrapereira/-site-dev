@@ -4,6 +4,10 @@ body {
 }
 
 body {
+    background-color: #eee;
+}
+
+body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -35,6 +39,40 @@ h5 {
     top: 25%;
 }
 
+#sobre-mim {
+    background-color: white;
+    min-height: 80%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#sobre-mim .image {
+    width: 30%;
+    height: 300px;
+    margin: auto;
+    padding: 2px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
+
+#habilidade {
+    background-color: white;
+}
+
+#Portfolio {
+    min-height: 90%;
+    width: 100%;
+    background-color: #eee;
+    padding-top: 70px;
+}
+
+.container h5 {
+    color: black;
+}
+
 .brand-logo {
     position: relative;
     left: 10px;
@@ -49,9 +87,13 @@ h5 {
     margin: 0px 10px -5px 5px;
 }
 
+.form p {
+    color: black;
+}
+
 .form input,
 textarea {
-    color: white;
+    color: black;
 }
 
 .form textarea {
