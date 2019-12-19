@@ -19,23 +19,27 @@
 
 <body>
     <!---navbar-->
-    <div class="navbar-fixed">
+    <div id="" class="navbar-fixed">
         <nav class="pushpin-demo-nav black">
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo left">
                     &lt;Caio Myra/&gt;
                 </a>
                 <!--menu mobile-->
-                <a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="large material-icons">menu</i></a>
+                <a href="#logo" data-target="slide-out" class="sidenav-trigger right"><i class="large material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a class="button" datajs="active" href="#sobre-mim">Sobre mim<img src="fonte/icon/man-user.png"></a></li>
-                    <li><a class="button" href="#habilidade">Habilidade<img src="fonte/icon/books-stack-of-three.png"></a></li>
-                    <li><a class="button" href="#Portfolio">Portfólio<img src="fonte/icon/portfolio.png"></a></li>
                     <li>
-                        <a class="button" href="#contatos">Contatos<img src="fonte/icon/e-mail-envelope.png"></a>
+                        <a datajs="active" href="#sobre-mim">Sobre mim<img src="fonte/icon/man-user.png"></a></li>
+                    <li>
+                        <a href="#habilidade">Habilidade<img src="fonte/icon/books-stack-of-three.png">
+                        </a></li>
+                    <li>
+                        <a href="#Portfolio">Portfólio<img src="fonte/icon/portfolio.png"></a>
+                    </li>
+                    <li>
+                        <a href="#contatos">Contatos<img src="fonte/icon/e-mail-envelope.png"></a>
                     </li>
                 </ul>
-
             </div>
         </nav>
     </div>
@@ -65,15 +69,11 @@
         <div class="card-panel image">
             <img src="fonte/img/img.jpg">
         </div>
-        <p> Estudante de T.I, Cursando o ultimo semestre de desenvolvimento de sistemas na Etec Apligio Gonzaga.<br> Desde meus vinte anos venho estudando e praticando os conteúdo do cursos da Udemy,Udacity e Codesaga.<br> Portanto com isso adquirir conhecimento
-            de Html, Css, Javascript, Git, Ruby e Framework:Materialize e Bootstrap.<br> Enquanto adquirindo os conhecimentos, venho praticando os desafios de código aberto do repositório da comunidade frontendbr do github.
-
-        </p>
-
+        <h1 class="center-align">sobre <br> - <br> mim</h1>
     </div>
 
     <div id="habilidade">
-        <h1 class="center-align"> Minha <br> - <br> Habilidade </h1>
+        <h1 class="center-align">Minha <br> - <br> Habilidades</h1>
     </div>
 
     <div id="Portfolio"><br>
@@ -82,7 +82,7 @@
 
 
     <!---footer-->
-    <footer class="page-footer  white">
+    <footer id="contatos" class="page-footer  white">
         <div class="container">
             <h5 class="center-align ">Entre em contato comigo</h5>
             <div>
@@ -127,7 +127,7 @@
             </div>
 
         </div>
-        <div id="contatos" class="footer-copyright black">
+        <div class="footer-copyright black">
             <div class="container">
                 <p>© 2019 Copyright Text</p>
 
@@ -143,6 +143,7 @@
 
     <!---jquery remoto, obs:" muito importante que jquery vem antes do materialize.js" -->
     <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <script src="js/jquery.nav.js"></script>
     <!-- materialize javascript local -->
     <script src="js/materialize.js"></script>
     <!--my script-->

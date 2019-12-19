@@ -13,6 +13,10 @@ body {
     flex-direction: column;
 }
 
+#nav-mobile li a:hover {
+    border-bottom: 5px solid #007abb;
+}
+
 main {
     flex: 1 0 auto;
 }
@@ -41,7 +45,7 @@ h5 {
 
 #sobre-mim {
     background-color: white;
-    min-height: 80%;
+    min-height: 100%;
     text-align: center;
     padding-top: 20px;
 }
@@ -50,6 +54,8 @@ h5 {
     width: 30%;
     height: 300px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 2px;
 }
 
@@ -60,6 +66,7 @@ h5 {
 
 #habilidade {
     background-color: white;
+    min-height: 90%;
 }
 
 #Portfolio {
@@ -78,11 +85,11 @@ h5 {
     left: 10px;
 }
 
-.button:hover {
+.button {
     background-color: #424242;
 }
 
-.button img {
+li a img {
     height: 26px;
     margin: 0px 10px -5px 5px;
 }

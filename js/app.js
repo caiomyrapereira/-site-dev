@@ -13,8 +13,6 @@
                 this.parallax()
                 this.initSadMenu()
                 this.closeSadMenu()
-                this.initCarousel()
-
             },
             parallax: function() {
                 doc.addEventListener('DOMContentLoaded', function() {
@@ -26,12 +24,6 @@
                 doc.addEventListener('DOMContentLoaded', function() {
                     const elems = doc.querySelectorAll('.sidenav');
                     const instances = M.Sidenav.init(elems);
-                });
-            },
-            initCarousel: function initCarousel() {
-                $('.carousel.carousel-slider').carousel({
-                    fullWidth: true,
-                    indicators: true
                 });
             },
             closeSadMenu: function() {
@@ -47,5 +39,24 @@
     })()
 
     app.initialize()
+
+    $(doc).ready(function() {
+        $('#nav-mobile').onePageNav({
+            currentClass: 'button',
+            changeHash: true,
+            scrollSpeed: 750,
+            scrollThreshold: 0.5,
+            filter: '',
+            easing: 'swing',
+        });
+    });
+
+    setInterval(function() {
+        if ($(wind).scrollTop() < $(wind).height() - 200) {
+            if (doc.querySelector('.button'))
+                doc.querySelector('.button').classList.remove('button');
+        };
+    }, 200);
+
 
 })(window, document)
