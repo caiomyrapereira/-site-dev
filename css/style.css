@@ -13,6 +13,12 @@ body {
     flex-direction: column;
 }
 
+.moblieIcons {
+    display: none;
+    filter: invert(100%);
+    text-align: center;
+}
+
 
 /*--header --*/
 
@@ -159,7 +165,13 @@ main {
 .card-content {
     border-top: 2px solid black;
 }
+.card .card-reveal .title , .card-title{
+    font-weight: bolder;
+}
 
+.card .card-reveal .title {
+    color:#555;
+}
 .cardleft {
     float: left;
 }

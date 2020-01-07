@@ -3,6 +3,39 @@
     height: 170%;
 }
 
+@media screen and (max-width:993px) {
+    #sobre-mim .text {
+        max-width: 300px;
+    }
+    #habilidade {
+        padding-top: 0px;
+    }
+    #habilidade .moblieIcons {
+        display: block;
+        margin-top: 45px;
+    }
+    #habilidade .skills {
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+    #habilidade .tools {
+        max-width: 800px;
+    }
+    #Portfolio .moblieIcons {
+        display: block;
+    }
+    #Portfolio h1 {
+        margin-top: 0px;
+    }
+    #Portfolio .projects {
+        max-width: 700px;
+    }
+    #contatos .moblieIcons {
+        display: block;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .caption h3 {
         font-size: 45px;
@@ -14,5 +47,35 @@
     }
     .nav-wrapper .brand-logo {
         font-size: 22px;
+    }
+    #habilidade .toolRigth {
+        float: right;
+    }
+    #habilidade .tools {
+        max-width: 250px;
+    }
+    #habilidade .tool {
+        width: 100px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    #habilidade .skills {
+        padding-bottom: 30px;
+        font-size: 45px;
+    }
+    #Portfolio {
+        background-color: white;
+        padding-top: 40px;
+    }
+    #Portfolio h1 {
+        font-size: 45px;
+        padding-bottom: 0px;
+    }
+    #Portfolio .projects {
+        max-width: 301px;
+    }
+    #contatos .container h5 {
+        margin-top: 0px;
+        margin-bottom: 50px;
     }
 }

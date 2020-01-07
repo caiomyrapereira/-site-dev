@@ -10,15 +10,34 @@
                 this.initEvent();
             },
             initEvent: function() {
-                this.parallax()
-                this.initSadMenu()
-                this.closeSadMenu()
+                this.parallax();
+                this.changeHash();
+                this.initSadMenu();
+                this.closeSadMenu();
             },
             parallax: function() {
                 doc.addEventListener('DOMContentLoaded', function() {
                     const elems = doc.querySelectorAll('.parallax');
                     const instances = M.Parallax.init(elems);
                 });
+            },
+            changeHash: function changeHash() {
+                $(doc).ready(function() {
+                    $('#nav-mobile').onePageNav({
+                        currentClass: 'button',
+                        changeHash: true,
+                        scrollSpeed: 750,
+                        scrollThreshold: 0.5,
+                        filter: '',
+                        easing: 'swing',
+                    });
+                });
+                setInterval(function() {
+                    if ($(wind).scrollTop() < $(wind).height() - 200) {
+                        if (doc.querySelector('.button'))
+                            doc.querySelector('.button').classList.remove('button');
+                    };
+                }, 200);
             },
             initSadMenu: function() {
                 doc.addEventListener('DOMContentLoaded', function() {
@@ -40,23 +59,9 @@
 
     app.initialize()
 
-    $(doc).ready(function() {
-        $('#nav-mobile').onePageNav({
-            currentClass: 'button',
-            changeHash: true,
-            scrollSpeed: 750,
-            scrollThreshold: 0.5,
-            filter: '',
-            easing: 'swing',
-        });
-    });
-
-    setInterval(function() {
-        if ($(wind).scrollTop() < $(wind).height() - 200) {
-            if (doc.querySelector('.button'))
-                doc.querySelector('.button').classList.remove('button');
-        };
-    }, 200);
 
 
-})(window, document)
+
+
+
+})(window, document);
