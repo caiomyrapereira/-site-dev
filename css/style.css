@@ -165,13 +165,16 @@ main {
 .card-content {
     border-top: 2px solid black;
 }
-.card .card-reveal .title , .card-title{
+
+.card .card-reveal .title,
+.card-title {
     font-weight: bolder;
 }
 
 .card .card-reveal .title {
-    color:#555;
+    color: #555;
 }
+
 .cardleft {
     float: left;
 }
@@ -215,9 +218,23 @@ textarea {
     height: 70px;
 }
 
+.container {
+    margin-right: 0;
+    margin-left: 100px;
+}
+
+.Copyright {
+    width: 200px;
+    text-align: right;
+}
+
+.network {
+    width: 200px;
+}
+
 .footer-copyright .github,
 .linkedin {
     height: 40px;
-    float: right;
+    float: left;
     margin: 3px 3px 0px 7px;
 }

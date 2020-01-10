@@ -78,4 +78,10 @@
         margin-top: 0px;
         margin-bottom: 50px;
     }
+    .Copyright {
+        width: 180px;
+    }
+    .network {
+        width: 110px;
+    }
 }
