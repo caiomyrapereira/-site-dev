@@ -12,6 +12,7 @@
             initEvent: function() {
                 this.parallax();
                 this.changeHash();
+                this.scrollDown();
                 this.initSadMenu();
                 this.closeSadMenu();
             },
@@ -31,6 +32,7 @@
                         filter: '',
                         easing: 'swing',
                     });
+
                 });
                 setInterval(function() {
                     if ($(wind).scrollTop() < $(wind).height() - 200) {
@@ -38,6 +40,11 @@
                             doc.querySelector('.button').classList.remove('button');
                     };
                 }, 200);
+            },
+            scrollDown: function() {
+                doc.querySelector('#arrow').addEventListener('click', function(e) {
+                    /*   changeHash  true*/
+                });
             },
             initSadMenu: function() {
                 doc.addEventListener('DOMContentLoaded', function() {

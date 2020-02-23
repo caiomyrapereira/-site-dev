@@ -45,6 +45,9 @@
         position: relative;
         top: 35%;
     }
+    #arrow {
+        top: 43%;
+    }
     .nav-wrapper .brand-logo {
         font-size: 22px;
     }
