@@ -105,27 +105,18 @@ main {
     padding-top: 50px;
 }
 
-#sobre-mim .image {
+#sobre-mim .mycard {
     width: 100%;
-    max-width: 250px;
-    height: 300px;
+    max-width: 800px;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 2px;
 }
 
-.image img {
-    height: 100%;
-    width: 100%;
+#sobre-mim .myimg {
+    margin: auto;
 }
 
-#sobre-mim .text {
-    width: 100%;
-    max-width: 500px;
-    font-family: verdana;
+#sobre-mim .mytext {
     margin: auto;
-    word-wrap: break-word;
 }
 
 
@@ -145,7 +136,7 @@ main {
 #habilidade .tools {
     margin: auto;
     width: 100%;
-    height: 500px;
+    height: 400px;
     max-width: 1000px;
     display: table;
 }
@@ -173,8 +164,8 @@ main {
 
 #Portfolio {
     width: 100%;
-    background-color: #eee;
     padding-top: 15px;
+    background-color: white;
 }
 
 #Portfolio h1 {

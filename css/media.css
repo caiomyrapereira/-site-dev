@@ -51,6 +51,9 @@
     .nav-wrapper .brand-logo {
         font-size: 22px;
     }
+    #sobre-mim .mycard {
+        width: 96%;
+    }
     #habilidade .toolRigth {
         float: right;
     }
@@ -67,7 +70,6 @@
         font-size: 45px;
     }
     #Portfolio {
-        background-color: white;
         padding-top: 40px;
     }
     #Portfolio h1 {
