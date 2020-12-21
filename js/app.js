@@ -27,7 +27,7 @@
                     $('#nav-mobile').onePageNav({
                         currentClass: 'button',
                         changeHash: true,
-                        scrollSpeed: 750,
+                        scrollSpeed: 0,
                         scrollThreshold: 0.5,
                         filter: '',
                         easing: 'swing',
